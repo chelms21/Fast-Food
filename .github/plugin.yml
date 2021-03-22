@@ -1,0 +1,22 @@
+main.php
+
+# Commands: If ur plugin has commands: Do this:
+command:
+	steak:
+		description: give urself some steak!
+		usage: /steak [amount]
+	porkchop:
+		description: give urself some porkchops!
+		usage: /porkchop [amount]
+	bread:
+	  description: give urself some bread!
+	  usage: /bread [amount]
+
+# Permissions 
+permissions:
+	steak.command:
+		default: true
+	porkchop.command:
+		default: true
+	bread.command:
+	  default: true
