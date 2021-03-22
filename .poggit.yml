@@ -2,5 +2,5 @@
 build-by-default: true
 branches:
 - plugin
-projects: []
+projects: [Fast-Food]
 ...
