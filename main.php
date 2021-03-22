@@ -1,6 +1,6 @@
 <?php
 
-namespace Inactive-to-Reactive;
+namespace foodplugin;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -9,7 +9,7 @@ use pocketmine\utils\TextFormat;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class Inactive-to-ReactiveExample extends PluginBase implements Listener{
+class foodplugin extends PluginBase implements Listener{
      public function onEnable(){
           $this->getServer()->getPluginManager()->registerEvents($this,$this);
           $this->getLogger()->info("Plugin Enabled");
